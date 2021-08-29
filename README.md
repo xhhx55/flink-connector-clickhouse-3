@@ -28,7 +28,7 @@ CREATE TABLE clickhouse_sink (
   'table-name' = '<yourTablename>',
   'sink.batch-size' = '8000',
   'sink.flush-interval' = '1000',
-  'sink.max-retries' = '3',
+  'sink.max-retries' = '3'
 )
 ```
 
